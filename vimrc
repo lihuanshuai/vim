@@ -173,6 +173,11 @@ let g:airline#extensions#branch#enabled=1
 "let g:airline_section_y='BN: %{bufnr("%")}''")}'
 
 """""""""""""""""""""""
+" PEP8
+"""""""""""""""""""""""
+autocmd FileType python map <buffer> <silent><leader>8 :call Flake8()<CR>
+
+"""""""""""""""""""""""
 " Nerdtree
 """""""""""""""""""""""
 map <leader>n :NERDTreeToggle<CR>
