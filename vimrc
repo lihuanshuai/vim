@@ -16,9 +16,7 @@ set confirm		" confirm on unsaved or readonly file.
 set history=1000	" history item max.
 
 set mouse=a
-"autocmd InsertLeave * set nocul  " use light color to highlignt current line.
-"autocmd InsertEnter * set cul    " use light color to highlignt current line.
-"set cursorline      " highlight current line.
+set cursorline      " highlight current line.
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"    " in konsole
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"    " in konsole
 
@@ -103,6 +101,9 @@ let g:defaultExplorer=1
 map <c-w><c-f> :FirstExplorerWindow<cr> 
 map <c-w><c-b> :BottomExplorerWindow<cr> 
 map <c-w><c-t> :WMToggle<cr>
+
+" PEP8
+let g:pep8_map='<leader>8'
 
 " Pytest
 nmap <silent><Leader>f <Esc>:Pytest file<CR>
