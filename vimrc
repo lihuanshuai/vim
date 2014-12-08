@@ -71,3 +71,12 @@ nmap <silent><Leader>ig <Plug>IndentGuidesToggle
 " TaskList
 """""""""""""""""""""""
 map <leader>td <Plug>TaskList
+
+"""""""""""""""""""""""
+" Gundo
+"""""""""""""""""""""""
+let g:gundo_width=35
+let g:gundo_preview_height=25
+let g:gundo_right=1
+"let g:gundo_preview_bottom=1
+map <leader>g :GundoToggle<CR>
