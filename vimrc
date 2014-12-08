@@ -65,3 +65,8 @@ let g:indent_guides_auto_colors=0
 highlight IndentGuidesOdd   ctermbg=darkblue    guibg=grey
 highlight IndentGuidesEven  ctermbg=darkcyan    guibg=darkgrey
 nmap <silent><Leader>ig <Plug>IndentGuidesToggle
+
+"""""""""""""""""""""""
+" TaskList
+"""""""""""""""""""""""
+map <leader>td <Plug>TaskList
