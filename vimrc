@@ -20,6 +20,11 @@ set cursorline      " highlight current line.
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"    " in konsole
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"    " in konsole
 
+set background=dark
+colorscheme solarized
+set colorcolumn=80
+highlight ColorColumn ctermbg=darkred guibg=darkred
+
 set autoindent				" indent automacally.
 set smartindent
 
@@ -48,10 +53,6 @@ set foldenable          " enable fold.
 set foldmethod=manual   " fold manually.
 set foldcolumn=4
 set foldlevel=3
-
-colorscheme solarized
-set colorcolumn=80
-highlight ColorColumn ctermbg=darkred guibg=darkred
 
 filetype on
 call pathogen#infect() 
@@ -104,13 +105,21 @@ map <c-w><c-f> :FirstExplorerWindow<cr>
 map <c-w><c-b> :BottomExplorerWindow<cr> 
 map <c-w><c-t> :WMToggle<cr>
 
+" Indent Guides
+let g:indent_guides_guide_size=1
+let g:indent_guides_auto_colors = 0
+highlight IndentGuidesOdd   ctermbg=darkblue    guibg=grey
+highlight IndentGuidesEven  ctermbg=darkcyan    guibg=darkgrey
+nmap <silent><Leader>ig <Plug>IndentGuidesToggle
+
+
 " PEP8
 let g:pep8_map='<leader>8'
 
 " Pytest
-nmap <silent><Leader>f <Esc>:Pytest file<CR>
-nmap <silent><Leader>c <Esc>:Pytest class<CR>
-nmap <silent><Leader>m <Esc>:Pytest method<CR>
+nmap <silent><Leader>tf <Esc>:Pytest file<CR>
+nmap <silent><Leader>tc <Esc>:Pytest class<CR>
+nmap <silent><Leader>tm <Esc>:Pytest method<CR>
 
 " Pydoc
 let g:pydoc_perform_mappings=0
