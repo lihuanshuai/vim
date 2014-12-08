@@ -50,6 +50,8 @@ set foldcolumn=4
 set foldlevel=3
 
 colorscheme solarized
+set colorcolumn=80
+highlight ColorColumn ctermbg=darkred guibg=darkred
 
 filetype on
 call pathogen#infect() 
