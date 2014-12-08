@@ -112,6 +112,8 @@ highlight IndentGuidesOdd   ctermbg=darkblue    guibg=grey
 highlight IndentGuidesEven  ctermbg=darkcyan    guibg=darkgrey
 nmap <silent><Leader>ig <Plug>IndentGuidesToggle
 
+" TaskList
+map <leader>td <Plug>TaskList
 
 " PEP8
 let g:pep8_map='<leader>8'
