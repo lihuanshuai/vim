@@ -51,7 +51,44 @@ filetype plugin indent on    " required
 """""""""""""""""""
 " Basic Settings
 """""""""""""""""""
+syntax on           	" enable syntax.
 set fileencodings=ucs-bom,utf-8,chinese,cp936,gb2312,gbk,gb18030,big5,euc-jp,euc-kr,latinl
+set number
+set ruler		" show the cursor position all the time
+set autochdir
+set nobackup
+"set noswapfile
+set confirm		" confirm on unsaved or readonly file.
+set history=1000	" history item max.
+set mouse=a
+"set cursorline          " highlight current line.
+set autoindent				" indent automacally.
+set smartindent
+set tabstop=4				" tab width.
+set softtabstop=4			" indent width.
+set shiftwidth=4
+set expandtab				" use empty instread of tab.
+set smarttab				" use tab on start of line or para.
+set ignorecase				" ignore case.
+set hlsearch				" higlight search.
+set incsearch
+set completeopt=menuone,longest,preview
+set bs=indent,eol,start		" allow backspacing over everything in insert mode
+set whichwrap+=<,>,h,l      	" allow <BS> and cusor crossing these.
+set showcmd         " show command.
+set wildmenu        " cmd autocomplete
+set cmdheight=1		" command line height.
+set statusline=%F%m%r%h%w\ [FMT=%{&ff}\ TYP=%Y\ ENC=%{&encoding}]\ [%l,%v\|\%B][%p%%]\ %{strftime(\"%d/%m/%y-%H:%M\")}
+set laststatus=2    " display status in 1 line.
+set foldenable          " enable fold.
+set foldmethod=manual   " fold manually.
+set foldcolumn=4
+set foldlevel=3
+
+nmap <F4> :tab sp <C-R>=expand("%:h")."/"<CR><CR>
+imap <F4> <C-O>:tab sp <C-R>=expand("%:h")."/"<CR><CR>
+nmap <S-F4> :tabclose<CR>
+nmap <S-F4> <C-O>:tabclose<CR>
 
 """""""""""""""""""""""""""
 " Solarized Color Scheme
