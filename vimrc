@@ -107,7 +107,7 @@ map <c-w><c-t> :WMToggle<cr>
 
 " Indent Guides
 let g:indent_guides_guide_size=1
-let g:indent_guides_auto_colors = 0
+let g:indent_guides_auto_colors=0
 highlight IndentGuidesOdd   ctermbg=darkblue    guibg=grey
 highlight IndentGuidesEven  ctermbg=darkcyan    guibg=darkgrey
 nmap <silent><Leader>ig <Plug>IndentGuidesToggle
@@ -132,7 +132,10 @@ nmap <silent><Leader>tm <Esc>:Pytest method<CR>
 
 " Pydoc
 let g:pydoc_perform_mappings=0
-let g:pydoc_open_cmd = 'tabnew'
+let g:pydoc_open_cmd='tabnew'
+
+" Pyflake
+let g:pyflakes_use_quickfix=0
 
 " Rope
 "imap <buffer><Tab> <C-/>
