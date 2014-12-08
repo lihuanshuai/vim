@@ -51,7 +51,7 @@ set foldmethod=manual   " fold manually.
 set foldcolumn=4
 set foldlevel=3
 
-colorscheme darkblue
+colorscheme solarized
 
 filetype on
 call pathogen#infect() 
