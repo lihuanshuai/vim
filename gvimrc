@@ -1,4 +1,4 @@
 " Config for GVim
 
-set guifont=Ubuntu\ Mono
+set guifont=Consolas
 set guifontwide=Ubuntu\ Mono
