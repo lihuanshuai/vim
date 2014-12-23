@@ -85,10 +85,10 @@ set foldmethod=manual   " fold manually.
 set foldcolumn=4
 set foldlevel=3
 
-nmap <F4> :tab sp <C-R>=expand("%:h")."/"<CR><CR>
-imap <F4> <C-O>:tab sp <C-R>=expand("%:h")."/"<CR><CR>
-nmap <S-F4> :tabclose<CR>
-nmap <S-F4> <C-O>:tabclose<CR>
+nmap <F6> :tab sp <C-R>=expand("%:h")."/"<CR><CR>
+imap <F6> <C-O>:tab sp <C-R>=expand("%:h")."/"<CR><CR>
+nmap <S-F6> :tabclose<CR>
+nmap <S-F6> <C-O>:tabclose<CR>
 
 """""""""""""""""""""""""""
 " Solarized Color Scheme
