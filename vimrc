@@ -67,10 +67,10 @@ filetype indent on
 nmap <C-x>k :qa<CR>
 imap <C-x>k <C-O>:qa<CR>
 
-nmap <F4> :tab sp <C-R>=expand("%:h")."/"<CR><CR>
-imap <F4> <C-O>:tab sp <C-R>=expand("%:h")."/"<CR><CR>
-nmap <S-F4> :tabclose<CR>
-nmap <S-F4> <C-O>:tabclose<CR>
+nmap <F6> :tab sp <C-R>=expand("%:h")."/"<CR><CR>
+imap <F6> <C-O>:tab sp <C-R>=expand("%:h")."/"<CR><CR>
+nmap <S-F6> :tabclose<CR>
+nmap <S-F6> <C-O>:tabclose<CR>
 
 
 """""""""""""""""""""
