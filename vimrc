@@ -99,8 +99,9 @@ let Tlist_Auto_Update=1
 
 " winmanager
 let g:winManagerWindowLayout='FileExplorer|TagList'
-let g:winManagerWidth=31
+let g:winManagerWidth=35
 let g:defaultExplorer=1
+let g:persistentBehaviour=0
 map <c-w><c-f> :FirstExplorerWindow<cr> 
 map <c-w><c-b> :BottomExplorerWindow<cr> 
 map <c-w><c-t> :WMToggle<cr>
