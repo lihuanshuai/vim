@@ -119,6 +119,11 @@ let g:airline#extensions#branch#enabled=1
 "let g:airline_section_y='BN: %{bufnr("%")}'
 " }
 
+" Supertab {
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType="context"
+" }
+
 " TaskList
 map <leader>td <Plug>TaskList
 
