@@ -43,3 +43,6 @@
 [submodule "bundle/autocomplpop"]
 	path = bundle/autocomplpop
 	url = https://github.com/vim-scripts/AutoComplPop.git
+[submodule "bundle/winmanager"]
+	path = bundle/winmanager
+	url = https://github.com/vim-scripts/winmanager.git
