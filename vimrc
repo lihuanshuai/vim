@@ -140,5 +140,7 @@ let g:pydoc_open_cmd='tabnew'
 " Pyflake
 let g:pyflakes_use_quickfix=0
 
-" Rope
-"imap <buffer><Tab> <C-/>
+" Rope {
+map <leader>j :RopeGotoDefinition<CR>
+map <leader>r :RopeRename<CR>
+" }
