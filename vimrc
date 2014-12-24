@@ -136,3 +136,9 @@ let g:airline#extensions#branch#enabled=1
 " Nerdtree
 """""""""""""""""""""""
 map <leader>n :NERDTreeToggle<CR>
+
+"""""""""""""""""""""""
+" Supertab
+"""""""""""""""""""""""
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType="context"
