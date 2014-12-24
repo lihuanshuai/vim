@@ -112,6 +112,11 @@ highlight IndentGuidesOdd   ctermbg=darkblue    guibg=grey
 highlight IndentGuidesEven  ctermbg=darkcyan    guibg=darkgrey
 nmap <silent><Leader>ig <Plug>IndentGuidesToggle
 
+" Supertab {
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType="context"
+" }
+
 " TaskList
 map <leader>td <Plug>TaskList
 
