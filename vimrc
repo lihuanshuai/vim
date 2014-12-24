@@ -76,7 +76,7 @@ nmap <S-F6> <C-O>:tabclose<CR>
 """""""""""""""""""""
 " plugins
 """""""""""""""""""""
-" taglist
+" Taglist {
 " let Tlist_Ctags_Cmd='/usr/bin/ctags'
 " let Tlist_Show_One_File=1
 " let Tlist_XonlyWindow=1
@@ -96,15 +96,17 @@ let Tlist_Auto_Update=1
 " let Tlist_WinHeight=5
 " let Tlist_WinWidth=20
 " let Tlist_Use_Horiz_Window=0
+" }
 
-" winmanager
+" WinManager {
 let g:winManagerWindowLayout='FileExplorer|TagList'
-let g:winManagerWidth=35
+let g:winManagerWidth=40
 let g:defaultExplorer=1
 let g:persistentBehaviour=0
 map <c-w><c-f> :FirstExplorerWindow<cr> 
 map <c-w><c-b> :BottomExplorerWindow<cr> 
 map <c-w><c-t> :WMToggle<cr>
+" }
 
 " Indent Guides
 let g:indent_guides_guide_size=1
