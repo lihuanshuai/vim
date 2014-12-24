@@ -131,4 +131,7 @@ let g:airline#extensions#branch#enabled=1
 "let g:airline_section_b='%{strftime("%Y-%m-%d %H:%M")}'
 "let g:airline_section_y='BN: %{bufnr("%")}''")}'
 
-
+"""""""""""""""""""""""
+" Nerdtree
+"""""""""""""""""""""""
+map <leader>n :NERDTreeToggle<CR>
