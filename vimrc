@@ -21,6 +21,8 @@ set cursorline      " highlight current line.
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"    " in konsole
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"    " in konsole
 
+set t_Co=256
+let g:solarized_termcolors= 256
 set background=dark
 colorscheme solarized
 set colorcolumn=80
@@ -47,7 +49,6 @@ set whichwrap+=<,>,h,l      	" allow <BS> and cusor crossing these.
 set showcmd         " show command.
 set wildmenu        " cmd autocomplete
 set cmdheight=1		" command line height.
-set statusline=%F%m%r%h%w\ [FMT=%{&ff}\ TYP=%Y\ ENC=%{&encoding}]\ [%l,%v\|\%B][%p%%]\ %{strftime(\"%d/%m/%y-%H:%M\")}
 set laststatus=2    " display status in 1 line.
 
 set foldenable          " enable fold.
@@ -115,6 +116,11 @@ let g:indent_guides_auto_colors=0
 highlight IndentGuidesOdd   ctermbg=darkblue    guibg=grey
 highlight IndentGuidesEven  ctermbg=darkcyan    guibg=darkgrey
 nmap <silent><Leader>ig <Plug>IndentGuidesToggle
+
+" Air Line {
+let g:airline_section_b='%{strftime("%Y-%m-%d %H:%M")}'
+let g:airline_section_y='BN: %{bufnr("%")}'
+" }
 
 " TaskList
 map <leader>td <Plug>TaskList
