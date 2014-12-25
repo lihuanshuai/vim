@@ -56,6 +56,7 @@ set fileencodings=ucs-bom,utf-8,chinese,cp936,gb2312,gbk,gb18030,big5,euc-jp,euc
 set number
 set ruler		" show the cursor position all the time
 set autochdir
+set autoread
 set nobackup
 "set noswapfile
 set confirm		" confirm on unsaved or readonly file.
