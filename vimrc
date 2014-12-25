@@ -10,6 +10,7 @@ syntax on           	" enable syntax.
 set number
 set ruler		" show the cursor position all the time
 set autochdir
+set autoread
 set nobackup
 set noswapfile
 set confirm		" confirm on unsaved or readonly file.
