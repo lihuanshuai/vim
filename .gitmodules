@@ -55,3 +55,6 @@
 [submodule "bundle/makegreen"]
 	path = bundle/makegreen
 	url = https://github.com/reinh/vim-makegreen.git
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = https://github.com/bling/vim-airline.git
