@@ -56,7 +56,8 @@ set foldcolumn=4
 set foldlevel=3
 
 filetype on
-call pathogen#infect() 
+call pathogen#infect()
+call pathogen#helptags()
 filetype plugin on
 filetype indent on
 
