@@ -101,16 +101,6 @@ let Tlist_Auto_Update=1
 " let Tlist_Use_Horiz_Window=0
 " }
 
-" WinManager {
-let g:winManagerWindowLayout='FileExplorer|TagList'
-let g:winManagerWidth=40
-let g:defaultExplorer=1
-let g:persistentBehaviour=0
-map <c-w><c-f> :FirstExplorerWindow<cr> 
-map <c-w><c-b> :BottomExplorerWindow<cr> 
-map <c-w><c-t> :WMToggle<cr>
-" }
-
 " Nerdtree {
 map <leader>n :NERDTreeToggle<CR>
 " }
