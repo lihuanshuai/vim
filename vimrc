@@ -145,7 +145,7 @@ map <leader>g :GundoToggle<CR>
 " let Tlist_Ctags_Cmd='/usr/bin/ctags'
 " let Tlist_Show_One_File=1
 " let Tlist_XonlyWindow=1
-" let Tlist_Use_Right_Window=1
+let Tlist_Use_Right_Window=1
 " let Tlist_Sort_Type='name'
 " let Tlist_Exit_XonlyWindow=1
 let Tlist_Show_Menu=1
