@@ -82,7 +82,7 @@ nmap <S-F6> <C-O>:tabclose<CR>
 " let Tlist_Ctags_Cmd='/usr/bin/ctags'
 " let Tlist_Show_One_File=1
 " let Tlist_XonlyWindow=1
-" let Tlist_Use_Right_Window=1
+let Tlist_Use_Right_Window=1
 " let Tlist_Sort_Type='name'
 " let Tlist_Exit_XonlyWindow=1
 let Tlist_Show_Menu=1
@@ -98,6 +98,7 @@ let Tlist_Auto_Update=1
 " let Tlist_WinHeight=5
 " let Tlist_WinWidth=20
 " let Tlist_Use_Horiz_Window=0
+map <silent> <C-w><C-t> :TlistToggle<CR>
 " }
 
 " Nerdtree {
