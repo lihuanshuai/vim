@@ -20,7 +20,6 @@ set mouse=a
 set cursorline      " highlight current line.
 
 set background=dark
-colorscheme solarized
 set colorcolumn=80
 highlight ColorColumn ctermbg=darkred guibg=darkred
 
@@ -36,7 +35,6 @@ set smarttab				" use tab on start of line or para.
 set ignorecase				" ignore case.
 set hlsearch				" higlight search.
 set incsearch
-"set completeopt=longest,menu
 set completeopt=menuone,longest,preview
 
 set bs=indent,eol,start		" allow backspacing over everything in insert mode
