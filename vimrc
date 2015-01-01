@@ -41,13 +41,13 @@ set expandtab				" use empty instread of tab.
 set smarttab				" use tab on start of line or para.
 
 set ignorecase				" ignore case.
-set hlsearch				" higlight search.
+set hlsearch				" highlight search.
 set incsearch
 set completeopt=menuone,longest,preview
 
 set fileencodings=ucs-bom,utf-8,chinese,cp936,gb2312,gbk,gb18030,big5,euc-jp,euc-kr,latinl
-set bs=indent,eol,start		" allow backspacing over everything in insert mode
-set whichwrap+=<,>,h,l      	" allow <BS> and cusor crossing these.
+set backspace=indent,eol,start  " allow backspacing over everything in insert mode
+set whichwrap+=<,>,h,l          " allow <BS> and cusor crossing these.
 
 set showcmd         " show command.
 set wildmenu        " cmd autocomplete
@@ -110,42 +110,49 @@ map <silent> <C-w><C-t> :TlistToggle<CR>
 map <leader>n :NERDTreeToggle<CR>
 " }
 
-" Indent Guides
+" Indent Guides {
 let g:indent_guides_guide_size=1
 let g:indent_guides_auto_colors=0
 highlight IndentGuidesOdd   ctermbg=darkblue    guibg=grey
 highlight IndentGuidesEven  ctermbg=darkcyan    guibg=darkgrey
 nmap <silent><Leader>ig <Plug>IndentGuidesToggle
+" }
 
 " Supertab {
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType="context"
 " }
 
-" TaskList
+" TaskList {
 map <leader>td <Plug>TaskList
+" }
 
-" Gundo
+" Gundo {
 let g:gundo_width=35
 let g:gundo_preview_height=25
 let g:gundo_right=1
 "let g:gundo_preview_bottom=1
 map <leader>g :GundoToggle<CR>
+" }
 
 " PEP8
 let g:pep8_map='<leader>8'
+" }
 
-" Pytest
+" Pytest {
 nmap <silent><Leader>tf <Esc>:Pytest file<CR>
 nmap <silent><Leader>tc <Esc>:Pytest class<CR>
 nmap <silent><Leader>tm <Esc>:Pytest method<CR>
+" }
 
-" Pydoc
+" Pydoc {
 let g:pydoc_perform_mappings=0
 let g:pydoc_open_cmd='tabnew'
+" }
 
-" Pyflake
+" Pyflake {
 let g:pyflakes_use_quickfix=0
+" }
 
 " Rope {
 map <leader>j :RopeGotoDefinition<CR>
