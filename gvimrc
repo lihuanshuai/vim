@@ -1,4 +1,4 @@
 " Config for GVim
 
-set guifont=Consolas
-set guifontwide=Ubuntu\ Mono
+winsize 125 30
+colorscheme solarized
