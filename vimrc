@@ -47,6 +47,7 @@ set incsearch
 "set completeopt=longest,menu
 set completeopt=menuone,longest,preview
 
+set fileencodings=ucs-bom,utf-8,chinese,cp936,gb2312,gbk,gb18030,big5,euc-jp,euc-kr,latinl
 set bs=indent,eol,start		" allow backspacing over everything in insert mode
 set whichwrap+=<,>,h,l      	" allow <BS> and cusor crossing these.
 
