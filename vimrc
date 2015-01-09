@@ -48,6 +48,11 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+"""""""""""""""""""
+" Basic Settings
+"""""""""""""""""""
+set fileencodings=ucs-bom,utf-8,chinese,cp936,gb2312,gbk,gb18030,big5,euc-jp,euc-kr,latinl
+
 """""""""""""""""""""""""""
 " Solarized Color Scheme
 """""""""""""""""""""""""""
