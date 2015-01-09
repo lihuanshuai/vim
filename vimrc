@@ -18,7 +18,15 @@ set history=1000	" history item max.
 
 set mouse=a
 set cursorline      " highlight current line.
+if &term =~ '^xterm-256color'   " I will set $TERM to 'xterm-256color' in Konsole profile
+    let &t_SI = "\<Esc>]50;CursorShape=1\x7"    " blinking vertical bar in konsole
+    let &t_EI = "\<Esc>]50;CursorShape=0\x7"    " blinking block in konsole
+endif
 
+if &term =~ '^xterm-256color'
+    set t_Co=256
+    let g:solarized_termcolors=256
+endif
 set background=dark
 set colorcolumn=80
 highlight ColorColumn ctermbg=darkred guibg=darkred
