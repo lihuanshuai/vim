@@ -62,6 +62,11 @@ set confirm		" confirm on unsaved or readonly file.
 set history=1000	" history item max.
 set mouse=a
 "set cursorline          " highlight current line.
+if &term =~ 'konsole'   " I will set $TERM to '*konsole' in Konsole profile
+    let &t_SI = "\<Esc>]50;CursorShape=1\x7"    " blinking vertical bar in konsole
+    let &t_EI = "\<Esc>]50;CursorShape=0\x7"    " blinking block in konsole
+endif
+
 set autoindent				" indent automacally.
 set smartindent
 set tabstop=4				" tab width.
