@@ -1,8 +1,8 @@
 " Vim Configuration
 
 """""""""""""""""""
-" basic
-""""""""""""""""""
+" Vundle Settings
+"""""""""""""""""""
 set nocompatible	" Use Vim defaults (much better!)
 filetype off            " required
 
@@ -25,6 +25,17 @@ filetype plugin indent on    " required
 
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+"""""""""""""""""""""""""""
+" Solarized Color Scheme
+"""""""""""""""""""""""""""
+syntax enable
+set background=dark
+colorscheme solarized
+if &term =~ '256color'
+    set t_Co=256
+    let g:solarized_termcolors=256
+endif
 
 """""""""""""""""""""""
 " Pytest
