@@ -29,3 +29,9 @@ filetype plugin indent on    " required
 nmap <silent><Leader>tf <Esc>:Pytest file<CR>
 nmap <silent><Leader>tc <Esc>:Pytest class<CR>
 nmap <silent><Leader>tm <Esc>:Pytest method<CR>
+
+"""""""""""""""""""""""
+" Pydoc
+"""""""""""""""""""""""
+let g:pydoc_perform_mappings=0
+let g:pydoc_open_cmd = 'tabnew'
