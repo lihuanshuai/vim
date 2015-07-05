@@ -29,6 +29,7 @@ Plugin 'vim-scripts/TaskList.vim'
 Plugin 'sjl/gundo.vim'
 Plugin 'vim-scripts/winmanager'
 Plugin 'vim-scripts/taglist.vim'
+Plugin 'vim-scripts/AutoComplPop'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
