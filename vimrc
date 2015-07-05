@@ -122,3 +122,9 @@ let Tlist_Auto_Update=1
 " let Tlist_WinWidth=20
 " let Tlist_Use_Horiz_Window=0
 
+"""""""""""""""""""""""
+" Airline
+"""""""""""""""""""""""
+let g:airline_section_b='%{strftime("%Y-%m-%d %H:%M")}'
+let g:airline_section_y='BN: %{bufnr("%")}'
+
