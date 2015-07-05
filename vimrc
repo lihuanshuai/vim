@@ -126,6 +126,8 @@ let Tlist_Auto_Update=1
 """""""""""""""""""""""
 " Airline
 """""""""""""""""""""""
-let g:airline_section_b='%{strftime("%Y-%m-%d %H:%M")}'
-let g:airline_section_y='BN: %{bufnr("%")}'
+let g:airline#extensions#branch#enabled=1
+"let g:airline_section_b='%{strftime("%Y-%m-%d %H:%M")}'
+"let g:airline_section_y='BN: %{bufnr("%")}''")}'
+
 
