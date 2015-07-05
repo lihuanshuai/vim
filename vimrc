@@ -31,6 +31,7 @@ Plugin 'vim-scripts/winmanager'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/AutoComplPop'
 Plugin 'wincent/command-t'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
