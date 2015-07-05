@@ -33,6 +33,7 @@ Plugin 'vim-scripts/AutoComplPop'
 Plugin 'wincent/command-t'
 Plugin 'tpope/vim-surround'
 Plugin 'reinh/vim-makegreen'
+Plugin 'bling/vim-airline'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
