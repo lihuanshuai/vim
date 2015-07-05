@@ -18,6 +18,7 @@ Plugin 'alfredodeza/pytest.vim'
 Plugin 'fs111/pydoc.vim'
 Plugin 'tpope/vim-git'
 Plugin 'klen/python-mode'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
