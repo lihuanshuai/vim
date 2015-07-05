@@ -100,6 +100,8 @@ if &term =~ '256color'
     set t_Co=256
     let g:solarized_termcolors=256
 endif
+set colorcolumn=80
+highlight ColorColumn ctermbg=darkred guibg=darkred
 
 """""""""""""""""""""""
 " Pytest
