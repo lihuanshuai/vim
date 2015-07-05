@@ -19,6 +19,9 @@ Plugin 'fs111/pydoc.vim'
 Plugin 'tpope/vim-git'
 Plugin 'klen/python-mode'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
