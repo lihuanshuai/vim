@@ -14,6 +14,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'alfredodeza/pytest.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
