@@ -27,6 +27,7 @@ Plugin 'nvie/vim-flake8' " Install flake8 first
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'vim-scripts/TaskList.vim'
 Plugin 'sjl/gundo.vim'
+Plugin 'vim-scripts/winmanager'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
