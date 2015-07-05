@@ -55,3 +55,12 @@ nmap <silent><Leader>tm <Esc>:Pytest method<CR>
 """""""""""""""""""""""
 let g:pydoc_perform_mappings=0
 let g:pydoc_open_cmd = 'tabnew'
+
+"""""""""""""""""""""""
+" Indent Guides
+"""""""""""""""""""""""
+let g:indent_guides_guide_size=1
+let g:indent_guides_auto_colors=0
+highlight IndentGuidesOdd   ctermbg=darkblue    guibg=grey
+highlight IndentGuidesEven  ctermbg=darkcyan    guibg=darkgrey
+nmap <silent><Leader>ig <Plug>IndentGuidesToggle
