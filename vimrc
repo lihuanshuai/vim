@@ -36,6 +36,7 @@ Plugin 'reinh/vim-makegreen'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/The-NERD-tree'
+Plugin 'ervandew/supertab'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
