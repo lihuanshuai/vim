@@ -38,6 +38,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/The-NERD-tree'
 Plugin 'ervandew/supertab'
 Plugin 'mileszs/ack.vim'
+Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
