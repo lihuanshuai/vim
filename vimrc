@@ -143,3 +143,9 @@ map <leader>n :NERDTreeToggle<CR>
 """""""""""""""""""""""
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType="context"
+
+"""""""""""""""""""""""
+" Ack
+"""""""""""""""""""""""
+nmap <leader>a <Esc>:Ack!
+
