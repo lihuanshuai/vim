@@ -27,7 +27,6 @@ Plugin 'nvie/vim-flake8' " Install flake8 first
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'vim-scripts/TaskList.vim'
 Plugin 'sjl/gundo.vim'
-Plugin 'vim-scripts/winmanager'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/AutoComplPop'
 Plugin 'wincent/command-t'
@@ -139,17 +138,6 @@ let g:gundo_preview_height=25
 let g:gundo_right=1
 "let g:gundo_preview_bottom=1
 map <leader>g :GundoToggle<CR>
-
-"""""""""""""""""""""""
-" Winmanger
-"""""""""""""""""""""""
-let g:winManagerWindowLayout='FileExplorer|TagList'
-let g:winManagerWidth=35
-let g:defaultExplorer=1
-let g:persistentBehaviour=0
-map <c-w><c-f> :FirstExplorerWindow<cr> 
-map <c-w><c-b> :BottomExplorerWindow<cr> 
-map <c-w><c-t> :WMToggle<cr>
 
 """""""""""""""""""""""""""
 " Taglist
