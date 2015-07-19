@@ -180,7 +180,7 @@ autocmd FileType python map <buffer> <silent><leader>8 :call Flake8()<CR>
 """""""""""""""""""""""
 " Nerdtree
 """""""""""""""""""""""
-map <leader>n :NERDTreeToggle<CR>
+map <silent><leader>n :NERDTreeToggle<CR>
 
 """""""""""""""""""""""
 " Supertab
