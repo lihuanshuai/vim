@@ -140,7 +140,7 @@ let g:gundo_width=35
 let g:gundo_preview_height=25
 let g:gundo_right=1
 "let g:gundo_preview_bottom=1
-map <leader>g :GundoToggle<CR>
+map <silent><leader>gt :GundoToggle<CR>
 
 """""""""""""""""""""""""""
 " Taglist
