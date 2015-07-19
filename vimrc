@@ -131,7 +131,7 @@ nmap <silent><Leader>ig <Plug>IndentGuidesToggle
 """""""""""""""""""""""
 " TaskList
 """""""""""""""""""""""
-map <silent><leader>td <Plug>TaskList
+nmap <silent><leader>td <Plug>TaskList
 
 """""""""""""""""""""""
 " Gundo
@@ -140,7 +140,7 @@ let g:gundo_width=35
 let g:gundo_preview_height=25
 let g:gundo_right=1
 "let g:gundo_preview_bottom=1
-map <silent><leader>gt :GundoToggle<CR>
+nmap <silent><leader>gt :GundoToggle<CR>
 
 """""""""""""""""""""""""""
 " Taglist
@@ -181,12 +181,12 @@ autocmd FileType python map <buffer> <silent><leader>8 :call Flake8()<CR>
 """""""""""""""""""""""
 " Nerdtree
 """""""""""""""""""""""
-map <silent><leader>n :NERDTreeToggle<CR>
+nmap <silent><leader>n :NERDTreeToggle<CR>
 
 """""""""""""""""""""""
 " Supertab
 """""""""""""""""""""""
-au FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType="context"
 
 """""""""""""""""""""""
