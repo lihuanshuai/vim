@@ -164,7 +164,7 @@ let Tlist_Auto_Update=1
 " let Tlist_WinHeight=5
 " let Tlist_WinWidth=20
 " let Tlist_Use_Horiz_Window=0
-map <silent><leader>tl :TlistToggle<CR>
+nmap <silent><C-W><C-T> :TlistToggle<CR>
 
 """""""""""""""""""""""
 " Airline
