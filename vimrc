@@ -191,5 +191,5 @@ let g:SuperTabDefaultCompletionType="context"
 """""""""""""""""""""""
 " Ack
 """""""""""""""""""""""
-nmap <leader>a <Esc>:Ack!
+nmap <silent><leader>a <Esc>:Ack!
 
