@@ -131,7 +131,7 @@ nmap <silent><Leader>ig <Plug>IndentGuidesToggle
 """""""""""""""""""""""
 " TaskList
 """""""""""""""""""""""
-map <leader>td <Plug>TaskList
+map <silent><leader>td <Plug>TaskList
 
 """""""""""""""""""""""
 " Gundo
