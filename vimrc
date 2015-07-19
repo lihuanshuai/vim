@@ -145,7 +145,7 @@ map <silent><leader>gt :GundoToggle<CR>
 """""""""""""""""""""""""""
 " Taglist
 """""""""""""""""""""""""""
-" let Tlist_Ctags_Cmd='/usr/bin/ctags'
+" let Tlist_Ctags_Cmd='/usr/bin/ctags' " `brew install ctags` first
 " let Tlist_Show_One_File=1
 " let Tlist_XonlyWindow=1
 let Tlist_Use_Right_Window=1
@@ -164,6 +164,7 @@ let Tlist_Auto_Update=1
 " let Tlist_WinHeight=5
 " let Tlist_WinWidth=20
 " let Tlist_Use_Horiz_Window=0
+map <silent><leader>tl :TlistToggle<CR>
 
 """""""""""""""""""""""
 " Airline
