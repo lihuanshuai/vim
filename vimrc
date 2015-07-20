@@ -90,6 +90,10 @@ set foldmethod=manual   " fold manually.
 set foldcolumn=4
 set foldlevel=3
 
+nmap <c-h> <c-w>h
+nmap <c-j> <c-w>j
+nmap <c-k> <c-w>k
+nmap <c-l> <c-w>l
 nmap <silent><leader>te :tab sp <C-R>=expand("%:h")."/"<CR><CR>
 imap <silent><leader>te <C-O>:tab sp <C-R>=expand("%:h")."/"<CR><CR>
 
